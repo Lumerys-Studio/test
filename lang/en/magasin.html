@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover wild morels from Lozère, carefully selected by La Morille Canourgaise.">
+  <title>Shop | La Morille Canourgaise</title>
+  <link rel="icon" type="image/png" href="../../logos/favicon.png">
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <header class="site-header"><div class="container nav">
+    <a class="brand" href="index.html"><img class="brand-logo" src="../../logos/logo-la-morille-canourguaise.png" alt="La Morille Canourgaise"><span>La Morille Canourgaise</span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav><span class="nav-mushroom" aria-hidden="true">🍄</span><ul class="nav-links">
+      <li><a href="index.html">Home</a></li><li><a href="histoire.html">The history of morels and Lozère</a></li><li><a class="active" href="magasin.html">Shop</a></li><li><a href="contact.html">Contact</a></li><li><a href="connexion.html">My account</a></li>
+    </ul></nav>
+  </div></header>
+  <main>
+    <section class="page-hero"><div class="container">
+      <span class="eyebrow">This season's selection</span>
+      <h1>Shop</h1>
+      <p>Discover our selection and open a morel's page to learn its story and add it to your cart.</p>
+      <a class="button button-secondary" href="compte.html" data-auth-status>Create an account / Log in</a>
+    </div></section>
+    <section class="section" id="shop"><div class="container">
+      <div class="notice">Wild morel availability naturally varies with the season. Payment methods will be offered when ordering, after confirmation of the available batch.</div>
+      <div class="shop-toolbar"><button class="button button-secondary" id="open-cart" type="button">View cart</button></div>
+      <div class="products" style="margin-top:12px">
+        <article class="product product-clickable" data-product="morilles" tabindex="0" role="button" aria-label="View morel details">
+          <div class="product-image product-image-morels"></div>
+          <div class="product-body"><span class="kicker">This season's harvest</span><h3>Morels</h3><p>A rare and delicate wild selection from Lozère, offered according to each arrival.</p><span class="price">Coming soon</span><a class="button" href="produit-morilles.html">View details →</a></div>
+        </article>
+        <article class="product product-coming"><div class="product-image product-image-coming"></div><div class="product-body"><span class="kicker">Coming soon</span><h3>Coming soon</h3><p>New selections from our land will arrive soon.</p><span class="price">Soon</span><span class="button button-disabled">In preparation</span></div></article>
+      </div>
+      <div class="payment-box"><h2>Secure payment methods</h2><p>Payments will be processed through trusted solutions when the order is placed.</p><div class="payment-methods"><span>PayPal</span><span>Bank card</span><span>Skrill</span></div></div>
+    </div></section>
+    <div class="shop-modal" id="product-modal" hidden><div class="shop-modal-backdrop" data-close-modal></div><section class="shop-modal-card" role="dialog" aria-modal="true" aria-labelledby="product-title"><button class="modal-close" type="button" data-close-modal aria-label="Close">×</button><div class="modal-product-image"></div><div><span class="kicker">Wild selection from Lozère</span><h2 id="product-title">Morels</h2><p>The morel is an exceptional spring mushroom, prized for its deep aroma and delicate texture. Each batch is carefully selected according to the harvest and natural availability.</p><p class="modal-note">Seasonal product — availability and packaging confirmed before ordering.</p><button class="button" id="add-to-cart" type="button">Add to cart</button><a class="button button-secondary" href="#shop" id="continue-shopping">Continue browsing</a><a class="button button-secondary" href="contact.html?produit=Morilles" id="checkout-link">Place the order →</a></div></section></div>
+    <aside class="cart-panel" id="cart-panel" hidden><div class="cart-panel-head"><h2>Your cart</h2><button class="modal-close" type="button" data-close-cart aria-label="Close">×</button></div><div class="cart-visual"><img src="../../logos/logo-la-morille-canourguaise.png" alt="La Morille Canourgaise"><span>Your selection from Lozère</span></div><div class="cart-guest-message" id="cart-guest-message"><strong>You are not logged in.</strong><span>Log in to retrieve your cart and prepare your order.</span><a class="button" href="connexion.html">Log in</a></div><p id="cart-empty">Your cart is empty.</p><div id="cart-content" hidden><p><strong>Morels</strong> — selection according to arrival</p><a class="button" href="contact.html?produit=Morilles">Place the order →</a></div></aside>
+  </main>
+  <footer><div class="container footer-row"><span>© 2026 La Morille Canourgaise — All rights reserved.</span><a href="contact.html">Go to contact →</a></div></footer>
+  <script src="../../script.js"></script><script src="../../animation.js"></script>
+</body>
+</html>

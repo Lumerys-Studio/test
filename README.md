@@ -7,6 +7,7 @@ Bienvenue sur le site de **La Morille Canourgaise**, consacré aux morilles sauv
 - La version française se trouve à la racine du projet.
 - La version anglaise se trouve dans [`lang/en/`](lang/en/).
 - La version espagnole se trouve dans [`lang/es/`](lang/es/).
+- Les images et les logos sont regroupés dans [`logos/`](logos/).
 
 ## Langues
 
